@@ -19,7 +19,7 @@ header {
   min-height: 100vh;
   min-width: 47%;
   background: linear-gradient(200deg, rgba(34, 47, 120, 1) 35%, rgba(103, 96, 166, 1) 100%);
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 }
 header img {
   position: relative;
@@ -140,6 +140,7 @@ footer a {
   header {
     min-height: 30rem;
     background: no-repeat url("../images/bg-intro.svg");
+    background-size: 100% 100%;
   }
   header img {
     max-width: 17rem;
